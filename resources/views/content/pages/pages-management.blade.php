@@ -45,7 +45,7 @@
               <th></th>
               <th></th>
               <th>Nama Page</th>
-              <th>Url</th>
+              <th>Status</th>
               <th>Actions</th>
             </tr>
           </thead>

@@ -9,7 +9,9 @@ class PublicPage extends Controller
 {
     public function index($slug)
     {
-        $data = Page::where('url', $slug)->firstOrFail();
+        $data = Page::where('slug', $slug)
+            ->where('status', 'published')
+            ->firstOrFail();
         $data = json_decode($data->page_data_html, true);
 
         return view('content.pages.public-page', ['data' => $data]);

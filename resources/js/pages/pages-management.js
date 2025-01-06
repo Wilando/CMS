@@ -68,7 +68,7 @@ async function dataTable() {
                   <i class="ri-delete-bin-7-line ri-20px"></i>
                 </button>
                 <span class="text-nowrap"><button data-object='${dataString}' class="btn btn-sm btn-icon btn-text-secondary text-body rounded-pill waves-effect waves-light update-record" data-bs-target="#modalFormPage" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="ri-edit-box-line ri-20px"></i></button></span>
-                <a href="/builder/${full['id']}" class="btn btn-primary me-2">
+                <a href="/admin/builder/${full['id']}" class="btn btn-primary me-2">
                   <span class="tf-icons ri-checkbox-circle-line ri-16px me-2"></span> Build
                 </a>
               </div>`;

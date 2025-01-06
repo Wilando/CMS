@@ -1,7 +1,7 @@
 {
   "menu": [
     {
-      "url": "/dashboard",
+      "url": "/admin/dashboard",
       "name": "Dashboard",
       "icon": "menu-icon tf-icons ri-home-smile-line",
       "slug": "pages-home"
@@ -12,13 +12,13 @@
       "slug": "pages-user-management",
       "submenu": [
         {
-          "url": "/user-management/list-user",
+          "url": "/admin/user-management/list-user",
           "name": "List User",
           "icon": "menu-icon tf-icons ri-file-3-line",
           "slug": "pages-user-management-user-list"
         },
         {
-          "url": "/user-management/role-dan-permission",
+          "url": "/admin/user-management/role-dan-permission",
           "name": "Role dan Permission",
           "icon": "menu-icon tf-icons ri-file-3-line",
           "slug": "pages-user-management-role-dan-permission"
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "url": "/pages-management",
+      "url": "/admin/pages-management",
       "icon": "menu-icon tf-icons ri-file-3-line",
       "name": "Pages Management",
       "slug": "pages-management"
